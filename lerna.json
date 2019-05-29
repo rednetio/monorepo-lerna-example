@@ -6,6 +6,13 @@
   "command": {
     "init": {
       "exact": true
+    },
+    "publish": {
+      "message": "chore(packages): release",
+      "conventionalCommits": true,
+      "npmClient": "npm",
+      "registry": "http://localhost:4873/",
+      "verifyAccess": false
     }
   }
 }
