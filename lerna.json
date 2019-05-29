@@ -1,0 +1,11 @@
+{
+  "packages": ["apps/*", "libs/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "init": {
+      "exact": true
+    }
+  }
+}
